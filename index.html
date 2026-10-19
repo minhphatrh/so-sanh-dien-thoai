@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Giao diện minh họa chức năng so sánh điện thoại."
+    >
+    <title>So sánh điện thoại | TechStore</title>
+
+    <!-- Liên kết tệp CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Nạp JavaScript sau khi HTML được phân tích -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#" aria-label="TechStore - Trang chủ">
+                <span class="brand-mark" aria-hidden="true">T</span>
+                <span>Tech<span class="brand-accent">Store</span></span>
+            </a>
+
+            <p class="header-note">
+                Chọn đúng điện thoại, dễ dàng hơn
+            </p>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <nav class="breadcrumbs" aria-label="Đường dẫn">
+            <a href="#">Trang chủ</a>
+            <span aria-hidden="true">/</span>
+            <a href="#">Điện thoại</a>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page">So sánh sản phẩm</span>
+        </nav>
+
+        <section class="intro" aria-labelledby="page-title">
+            <p class="eyebrow">CÔNG CỤ HỖ TRỢ MUA SẮM</p>
+
+            <h1 id="page-title">So sánh điện thoại</h1>
+
+            <p>
+                Chọn những mẫu điện thoại bạn quan tâm để đối chiếu
+                thông số trong cùng một bảng.
+            </p>
+        </section>
+
+        <!-- KHU VỰC DANH SÁCH SẢN PHẨM -->
+        <section
+            class="products-section"
+            aria-labelledby="products-title"
+        >
+            <div class="section-heading">
+                <div>
+                    <h2 id="products-title">Điện thoại nổi bật</h2>
+                    <p class="section-subtitle">
+                        Chọn tối đa 4 sản phẩm để so sánh.
+                    </p>
+                </div>
+
+                <span
+                    class="selection-count"
+                    id="selection-count"
+                    aria-live="polite"
+                >
+                    Đã chọn 0/4
+                </span>
+            </div>
+
+            <!-- JavaScript sẽ tạo 4 thẻ sản phẩm tại đây -->
+            <div class="product-grid" id="product-grid"></div>
+
+            <p class="demo-note">
+                * Giá bán và thông số chỉ là dữ liệu minh họa cho bài tập,
+                không phải báo giá hiện hành của CellphoneS.
+            </p>
+        </section>
+
+        <!-- KHU VỰC BẢNG SO SÁNH -->
+        <section
+            class="comparison-section"
+            aria-labelledby="comparison-title"
+        >
+            <div class="section-heading comparison-heading">
+                <div>
+                    <p class="eyebrow">ĐỐI CHIẾU THÔNG SỐ</p>
+
+                    <h2 id="comparison-title">Bảng so sánh</h2>
+
+                    <p
+                        class="section-subtitle"
+                        id="comparison-help"
+                    >
+                        Chọn ít nhất 2 sản phẩm để bắt đầu so sánh.
+                    </p>
+                </div>
+
+                <button
+                    class="button button-secondary"
+                    id="clear-selection"
+                    type="button"
+                    disabled
+                >
+                    Bỏ chọn tất cả
+                </button>
+            </div>
+
+            <!-- Trạng thái khi chưa chọn sản phẩm -->
+            <div class="empty-state" id="empty-state">
+                <div class="empty-icon" aria-hidden="true">⇄</div>
+
+                <h3>Chưa có sản phẩm để so sánh</h3>
+
+                <p>
+                    Hãy chọn điện thoại ở phía trên.
+                    Bảng thông số sẽ được cập nhật tự động.
+                </p>
+            </div>
+
+            <!-- Bảng sẽ được JavaScript cập nhật -->
+            <div class="table-scroll" id="table-scroll" hidden>
+                <table class="comparison-table" id="comparison-table">
+                    <caption class="visually-hidden">
+                        Bảng đối chiếu thông số các điện thoại đã chọn
+                    </caption>
+
+                    <thead id="comparison-head"></thead>
+                    <tbody id="comparison-body"></tbody>
+                </table>
+            </div>
+
+            <p class="table-hint" id="table-hint" hidden>
+                Trên điện thoại, vuốt ngang bảng để xem tất cả sản phẩm.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <span>TechStore · Giao diện minh họa phục vụ học tập</span>
+            <span>Không liên kết hoặc đại diện cho CellphoneS</span>
+        </div>
+    </footer>
+</body>
+</html>
