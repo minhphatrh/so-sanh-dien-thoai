@@ -63,3 +63,19 @@ Qua quá trình thực hiện, em hiểu vai trò của từng tệp trong dự 
 - **JavaScript** xử lý tương tác khi người dùng chọn hoặc bỏ chọn sản phẩm và cập nhật bảng so sánh.
 
 em cũng hiểu rằng việc nhận mã nguồn từ AI chưa đồng nghĩa với việc hoàn thành sản phẩm. Cần mở giao diện trên trình duyệt, kiểm tra các thao tác, phát hiện điểm chưa phù hợp và điều chỉnh mã nguồn khi cần thiết. Việc kiểm tra thực tế giúp em hiểu rõ hơn mối liên hệ giữa cấu trúc HTML, cách trình bày CSS và hành vi tương tác của JavaScript.
+## 7. Prompt sử dụng trong Buổi 2
+
+Trong Buổi 2, em tiếp tục sử dụng ChatGPT để rà soát và hoàn thiện mã nguồn đã xây dựng từ Buổi 1. Một số yêu cầu chính gồm:
+
+- **Kiểm tra cấu trúc HTML5:** Yêu cầu AI xem xét cách tổ chức các phần tử HTML, cấu trúc nội dung và việc sử dụng các thẻ ngữ nghĩa.
+- **Kiểm tra CSS Selector và Box Model:** Yêu cầu AI giải thích các bộ chọn CSS và hỗ trợ điều chỉnh margin, padding, border và các thuộc tính liên quan.
+- **Áp dụng Flexbox và CSS Grid:** Yêu cầu AI phân tích cách bố trí tiêu đề và danh sách sản phẩm, đồng thời hướng dẫn sử dụng Flexbox và Grid phù hợp.
+- **Kiểm tra Hover và Focus:** Yêu cầu AI xem xét các trạng thái tương tác của nút và đề xuất cách cải thiện giao diện.
+- **Kiểm tra Responsive:** Yêu cầu AI tìm nguyên nhân danh sách sản phẩm vẫn hiển thị hai cột trên màn hình điện thoại và hướng dẫn điều chỉnh Media Query để hiển thị một cột.
+- **Hoàn thiện README:** Yêu cầu AI hỗ trợ xây dựng nội dung giới thiệu dự án, kỹ thuật đã sử dụng, hướng dẫn chạy website và những thay đổi đã thực hiện.
+
+## 8. Kiểm tra kết quả AI trong Buổi 2
+
+Sau khi nhận được đề xuất, em đối chiếu với mã nguồn hiện tại và kiểm tra trực tiếp trên trình duyệt. Đối với phần Responsive, em phát hiện quy tắc trong Media Query dành cho điện thoại chưa được thiết lập phù hợp, khiến danh sách sản phẩm vẫn hiển thị hai cột. Em đã điều chỉnh lại thuộc tính `grid-template-columns` thành `1fr` trong Media Query tương ứng và kiểm tra lại giao diện ở kích thước màn hình nhỏ.
+
+Các nội dung AI đề xuất chỉ được áp dụng sau khi em xem xét sự phù hợp với cấu trúc website và kết quả hiển thị thực tế.

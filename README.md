@@ -1,53 +1,55 @@
-# E-commerce UI Improvement
+# TechStore – Website so sánh điện thoại
 
-## 1. Giới thiệu
+## 1. Giới thiệu bài tập
 
-Dự án này xây dựng giao diện minh họa chức năng so sánh điện thoại, nhằm giúp người dùng dễ dàng xem và đối chiếu thông tin của nhiều sản phẩm trên cùng một giao diện.
+TechStore là website mô phỏng công cụ hỗ trợ người dùng lựa chọn và so sánh các mẫu điện thoại. Dự án được thực hiện trong khuôn khổ bài tập cá nhân môn Phát triển ứng dụng thương mại điện tử. Ở Buổi 2, em tiếp tục phát triển giao diện đã xây dựng từ Buổi 1, tập trung vào việc cải thiện cấu trúc HTML5 và cách trình bày giao diện bằng CSS3.
 
-Website CellphoneS (https://cellphones.com.vn/) được lựa chọn làm website tham khảo để khảo sát giao diện thương mại điện tử. Từ quá trình khảo sát, tôi đề xuất xây dựng một giao diện so sánh điện thoại riêng với tên minh họa là **TechStore**. Đây là giao diện thực hành, không phải giao diện chính thức của CellphoneS.
+## 2. Website tham khảo và khu vực đã cải tiến
 
-## 2. Website tham khảo
+- **Website tham khảo:** CellphoneS – https://cellphones.com.vn/
+- **Khu vực cải tiến:** Danh mục sản phẩm và chức năng so sánh điện thoại.
+- **Mục tiêu:** Cải thiện cách hiển thị danh sách sản phẩm, giúp người dùng dễ dàng quan sát và đối chiếu thông số giữa các mẫu điện thoại.
 
-- **Tên website:** CellphoneS
-- **URL:** https://cellphones.com.vn/
-- **Khu vực khảo sát:** Trang chủ, danh mục sản phẩm, trang chi tiết sản phẩm, chức năng tìm kiếm và giỏ hàng.
-- **Nội dung tham khảo:** Cách tổ chức thông tin sản phẩm và cách trình bày giao diện của một website thương mại điện tử.
+## 3. Những kỹ thuật HTML5/CSS3 đã thực hành
 
-## 3. Chức năng
+Trong quá trình thực hiện, em đã áp dụng các kỹ thuật sau:
 
-- Hiển thị danh sách điện thoại mẫu, bao gồm hình ảnh, tên sản phẩm và giá minh họa.
-- Cho phép người dùng chọn các điện thoại muốn so sánh.
-- Hiển thị bảng so sánh các thông tin như giá, màn hình, dung lượng lưu trữ, camera và pin.
-- Cho phép bỏ chọn sản phẩm và xóa danh sách so sánh.
-- Bố trí giao diện có khả năng thích ứng với màn hình máy tính và thiết bị di động.
+- **HTML5 Semantic:** Sử dụng các phần tử `header`, `nav`, `main`, `section`, `article` và `footer` để tổ chức cấu trúc trang web.
+- **CSS Selector:** Sử dụng bộ chọn phần tử, class và các bộ chọn liên quan để định dạng giao diện.
+- **Box Model:** Điều chỉnh `margin`, `padding`, `border` và `border-radius` cho các thẻ sản phẩm.
+- **Flexbox:** Sắp xếp nội dung trong khu vực tiêu đề danh sách sản phẩm.
+- **CSS Grid:** Bố trí danh sách sản phẩm theo dạng lưới với số cột phù hợp.
+- **Hover và Focus:** Bổ sung hiệu ứng khi di chuột và khi sử dụng bàn phím.
+- **Responsive Design:** Sử dụng Media Query để điều chỉnh giao diện trên máy tính, máy tính bảng và điện thoại.
 
-**Lưu ý:** Tên sản phẩm, giá và thông số trong giao diện được sử dụng để minh họa chức năng, không đại diện cho dữ liệu sản phẩm hiện hành của CellphoneS.
+## 4. Hướng dẫn chạy website
 
-## 4. Công nghệ
+1. Tải mã nguồn từ repository GitHub hoặc mở thư mục dự án trên máy tính.
+2. Mở tệp `index.html` bằng trình duyệt web.
+3. Quan sát danh sách sản phẩm và sử dụng chức năng chọn sản phẩm để xem bảng so sánh.
 
-- **HTML5:** Xây dựng cấu trúc trang web và các thành phần giao diện.
-- **CSS3:** Thiết kế bố cục, màu sắc, kiểu chữ, khoảng cách và giao diện responsive.
-- **JavaScript:** Xử lý thao tác chọn sản phẩm, bỏ chọn, xóa lựa chọn và cập nhật bảng so sánh.
+Dự án sử dụng HTML, CSS và JavaScript cơ bản, không yêu cầu cài đặt thư viện bên ngoài hoặc kết nối cơ sở dữ liệu.
 
-## 5. Cách chạy
+## 5. Những thay đổi đã thực hiện
 
-1. Tải hoặc sao chép repository về máy tính.
-2. Mở thư mục dự án.
-3. Mở tệp `index.html` bằng trình duyệt web như Google Chrome.
-4. Chọn các điện thoại trong danh sách để kiểm tra chức năng so sánh.
+So với giao diện ở Buổi 1, em đã tiếp tục điều chỉnh và hoàn thiện một số nội dung:
 
-Dự án là giao diện thực hành phía người dùng, không yêu cầu kết nối cơ sở dữ liệu hoặc máy chủ backend.
+- Cải thiện cách trình bày thẻ sản phẩm, hình ảnh và thông tin điện thoại.
+- Điều chỉnh khoảng cách, đường viền, màu sắc và hiệu ứng của các thành phần giao diện.
+- Sử dụng Flexbox để sắp xếp khu vực tiêu đề danh sách sản phẩm.
+- Sử dụng CSS Grid để bố trí danh sách sản phẩm.
+- Hoàn thiện hiệu ứng hover và focus cho nút so sánh.
+- Kiểm tra giao diện ở nhiều kích thước màn hình và điều chỉnh Media Query để danh sách sản phẩm hiển thị một cột trên điện thoại.
 
-## 6. Cải tiến đã thực hiện
+## 6. Công cụ AI đã sử dụng và cách kiểm tra kết quả
 
-Dự án đề xuất giao diện so sánh điện thoại để người dùng có thể xem các thông tin quan trọng của nhiều sản phẩm trong cùng một bảng, thay vì phải chuyển qua lại giữa các trang sản phẩm để đối chiếu.
+- **Công cụ AI:** ChatGPT.
+- **Mục đích sử dụng:** Hỗ trợ phân tích mã nguồn HTML/CSS, đề xuất cách cải thiện giao diện, giải thích các thuộc tính và hỗ trợ tìm nguyên nhân của một số vấn đề hiển thị.
+- **Cách kiểm tra:** Em đối chiếu đề xuất của AI với mã nguồn thực tế, xem xét tính phù hợp trước khi chỉnh sửa và kiểm tra kết quả trực tiếp trên trình duyệt. Những nội dung chưa phù hợp được điều chỉnh lại để phù hợp với cấu trúc dự án.
 
-Giao diện được xây dựng với danh sách bốn điện thoại mẫu và bảng so sánh các tiêu chí cơ bản. Trong quá trình kiểm tra, kiểu chữ của dòng giới thiệu phía trên tiêu đề chính cũng được điều chỉnh thông qua lớp CSS `.eyebrow` để phù hợp hơn với bố cục mong muốn.
+Các prompt đã sử dụng trong quá trình thực hiện được ghi lại trong tệp `AI_USAGE.md`.
 
-Sau khi xây dựng, giao diện được mở bằng Google Chrome để kiểm tra danh sách sản phẩm, thao tác chọn so sánh, bảng kết quả và cách hiển thị trên màn hình di động.
+## 7. Đường dẫn repository và website triển khai
 
-## 7. Hỗ trợ từ AI
-
-ChatGPT được sử dụng để hỗ trợ phân tích giao diện website tham khảo, đề xuất hướng cải tiến chức năng so sánh điện thoại và hỗ trợ xây dựng mã HTML, CSS, JavaScript.
-
-Sau khi nhận kết quả, tôi đối chiếu nội dung với website tham khảo, kiểm tra giao diện bằng trình duyệt, điều chỉnh CSS và xem lại cách hiển thị trên màn hình di động. Các thông tin sản phẩm trong bản minh họa được sử dụng để phục vụ việc kiểm thử chức năng, không được xem là dữ liệu thực tế đã xác minh.
+- **GitHub repository:** https://github.com/minhphatrh/so-sanh-dien-thoai
+- **Website triển khai:** Chưa triển khai.

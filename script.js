@@ -20,7 +20,7 @@ const products = [
         battery: "3.561 mAh (minh họa)",
         image:
             "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=600&q=80",
-        alt: "Điện thoại thông minh màu tối, hình minh họa"
+        alt: "Hình minh họa điện thoại iPhone 16"
     },
     {
         id: "phone-b",
@@ -33,7 +33,7 @@ const products = [
         battery: "4.000 mAh (minh họa)",
         image:
             "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
-        alt: "Điện thoại thông minh, hình minh họa"
+        alt: "Hình minh họa điện thoại Samsung Galaxy S25"
     },
     {
         id: "phone-c",
@@ -46,7 +46,7 @@ const products = [
         battery: "5.000 mAh (minh họa)",
         image:
             "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80",
-        alt: "Điện thoại thông minh màu đen, hình minh họa"
+        alt: "Hình minh họa điện thoại Xiaomi 14T Pro"
     },
     {
         id: "phone-d",
@@ -59,7 +59,7 @@ const products = [
         battery: "5.600 mAh (minh họa)",
         image:
             "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=600&q=80",
-        alt: "Điện thoại thông minh màu sáng, hình minh họa"
+        alt: "Hình minh họa điện thoại OPPO Reno13 5G"
     }
 ];
 
